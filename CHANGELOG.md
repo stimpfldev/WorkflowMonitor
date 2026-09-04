@@ -1,3 +1,7 @@
+<p>
+  <img src="assets/workflow-monitor-mark.svg" alt="Workflow Monitor" width="56" />
+</p>
+
 # Changelog
 
 ## 1.1.2 — 2026-09-04
