@@ -1,3 +1,7 @@
+<p>
+  <img src="../assets/workflow-monitor-mark.svg" alt="Workflow Monitor" width="56" />
+</p>
+
 # Workflow Monitor Demo — Installation
 
 ## Before you start
@@ -68,6 +72,6 @@ When the database-preservation option is used, the application services, install
 
 ## Microsoft Defender SmartScreen
 
-The current Demo installer is not code-signed with a trusted Windows code-signing certificate. Windows can therefore show a SmartScreen warning after the package is downloaded from the Internet.
+The current 1.1.2 Demo installer is not code-signed with a trusted Windows code-signing certificate. Windows can therefore show a SmartScreen warning after the package is downloaded from the Internet.
 
 Always download the Demo from this official repository and verify the published SHA-256 checksum before installation.
