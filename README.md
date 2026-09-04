@@ -1,3 +1,7 @@
+<p>
+  <img src="assets/workflow-monitor-mark.svg" alt="Workflow Monitor" width="64" />
+</p>
+
 # Workflow Monitor
 
 **SQL workflow execution monitoring for .NET and SQL Server.**
