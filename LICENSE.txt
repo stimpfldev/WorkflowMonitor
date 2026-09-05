@@ -1,0 +1,31 @@
+WORKFLOW MONITOR PUBLIC DISTRIBUTION NOTICE
+Version 1.0 — September 5, 2026
+
+Copyright (c) 2026 Federico Stimpfl. All rights reserved.
+
+This repository is the public product, documentation, and distribution surface for Workflow Monitor. It does not publish the private commercial source code.
+
+The Workflow Monitor software, documentation, branding, installers, release packages, database materials, and associated original materials are proprietary unless a specific file states otherwise.
+
+You may view this repository, read and download its public documentation, and download the Demo release for evaluation subject to the applicable End User License Agreement included with the product and published in this repository.
+
+No permission is granted by this notice to:
+
+1. use the Demo or commercial software in production except under an applicable commercial license;
+2. redistribute, resell, sublicense, rent, host, or commercially exploit Workflow Monitor;
+3. remove or alter copyright, authorship, branding, version, licensing, capacity, or expiration controls;
+4. reverse engineer or circumvent licensing or protection mechanisms except where mandatory law expressly permits otherwise;
+5. use private signing material, issued customer licenses, or customer-specific configuration;
+6. represent Workflow Monitor, its branding, or its documentation as your own work.
+
+Third-party components remain subject to their respective licenses and notices as identified in `Legal/THIRD-PARTY-NOTICES.txt` and in the distributed package.
+
+THE DEMO IS PROVIDED FOR EVALUATION SUBJECT TO THE APPLICABLE EULA AND WITHOUT WARRANTIES BEYOND THOSE THAT CANNOT LAWFULLY BE EXCLUDED.
+
+Access to this repository does not transfer ownership. All rights not expressly granted are reserved.
+
+Product information:
+https://www.federicostimpfl.com.ar
+
+Contact:
+federicosdev@gmail.com
