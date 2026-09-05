@@ -110,6 +110,7 @@ The public Demo is distributed through **GitHub Releases** together with its SHA
 
 ## Documentation
 
+- [Quick walkthrough](docs/WALKTHROUGH.md)
 - [Installation instructions](docs/INSTALLATION.md)
 - [Demo scope and limitations](docs/DEMO.md)
 - [Architecture](docs/ARCHITECTURE.md)
