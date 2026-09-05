@@ -96,9 +96,9 @@ The Demo is a Windows x64 self-contained package.
 
 ## Latest version
 
-**Workflow Monitor 1.1.2** — September 4, 2026
+**Workflow Monitor 1.1.3** — September 5, 2026
 
-Version 1.1.2 consolidates the validated Windows installer/uninstaller, branding and packaging hardening of the 1.1.x line.
+Version 1.1.3 finalizes the validated Windows installer/uninstaller and packaging hardening, corrects Spanish CSV export for Excel compatibility, and updates the installation guidance for the current unsigned installer distribution.
 
 ## Download
 
@@ -126,10 +126,10 @@ The public Demo is distributed through **GitHub Releases** together with its SHA
 
 ### Word documentation
 
-- [Manual de instalación y uso — ES 1.1.2](docs/SqlWorkflowMonitor_Manual_de_Instalacion_y_Uso_ES_1.1.2.docx)
-- [Installation and User Guide — EN 1.1.2](docs/SqlWorkflowMonitor_Installation_and_User_Guide_EN_1.1.2.docx)
-- [Descripción comercial — ES 1.1.2](docs/SqlWorkflowMonitor_Descripcion_Comercial_ES_1.1.2.docx)
-- [Product Overview — EN 1.1.2](docs/SqlWorkflowMonitor_Product_Overview_EN_1.1.2.docx)
+- [Manual de instalación y uso — ES 1.1.3](docs/SqlWorkflowMonitor_Manual_de_Instalacion_y_Uso_ES_1.1.3.docx)
+- [Installation and User Guide — EN 1.1.3](docs/SqlWorkflowMonitor_Installation_and_User_Guide_EN_1.1.3.docx)
+- [Descripción comercial — ES 1.1.3](docs/SqlWorkflowMonitor_Descripcion_Comercial_ES_1.1.3.docx)
+- [Product Overview — EN 1.1.3](docs/SqlWorkflowMonitor_Product_Overview_EN_1.1.3.docx)
 
 ## Requirements
 
