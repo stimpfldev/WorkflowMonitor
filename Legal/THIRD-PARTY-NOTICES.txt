@@ -1,0 +1,130 @@
+THIRD-PARTY NOTICES
+WORKFLOW MONITOR
+
+Product: Workflow Monitor
+Product version: 1.1.2
+Runtime: .NET 10, win-x64, self-contained
+Last reviewed: September 5, 2026
+Copyright © 2026 Federico Stimpfl. All rights reserved.
+
+Workflow Monitor includes third-party software components. Those components remain the property of their respective copyright holders and are distributed under their own license terms.
+
+The inclusion of third-party software does not change the proprietary license of Workflow Monitor itself.
+
+This public notice reflects the runtime dependency inventory used by the Web/API and Worker components of the current 1.1.2 product line. Test-only dependencies and the private license-generator tooling are not distributed as part of the customer runtime.
+
+The executable distribution also carries the applicable official .NET Runtime and ASP.NET Core third-party notices. Those bundled notices are authoritative for framework/runtime components incorporated into the self-contained package.
+
+===============================================================================
+1. DIRECT RUNTIME NUGET DEPENDENCIES
+===============================================================================
+
+- Microsoft.AspNetCore.OpenApi 10.0.10
+- Microsoft.Data.SqlClient 7.0.2
+- Microsoft.Extensions.Hosting 10.0.10
+- Microsoft.Extensions.Hosting.WindowsServices 10.0.10
+- Microsoft.Extensions.Http 10.0.10
+- Microsoft.OpenApi 2.11.0
+- Swashbuckle.AspNetCore.SwaggerUI 10.2.3
+
+===============================================================================
+2. TRANSITIVE RUNTIME NUGET DEPENDENCIES
+===============================================================================
+
+- Microsoft.Bcl.Cryptography 9.0.13
+- Microsoft.Data.SqlClient.Extensions.Abstractions 7.0.2
+- Microsoft.Data.SqlClient.Internal.Logging 7.0.2
+- Microsoft.Data.SqlClient.SNI.runtime 6.0.2
+- Microsoft.Extensions.Caching.Abstractions 9.0.13
+- Microsoft.Extensions.Caching.Memory 9.0.13
+- Microsoft.Extensions.Configuration 10.0.10
+- Microsoft.Extensions.Configuration.Abstractions 10.0.10
+- Microsoft.Extensions.Configuration.Binder 10.0.10
+- Microsoft.Extensions.Configuration.CommandLine 10.0.10
+- Microsoft.Extensions.Configuration.EnvironmentVariables 10.0.10
+- Microsoft.Extensions.Configuration.FileExtensions 10.0.10
+- Microsoft.Extensions.Configuration.Json 10.0.10
+- Microsoft.Extensions.Configuration.UserSecrets 10.0.10
+- Microsoft.Extensions.DependencyInjection 10.0.10
+- Microsoft.Extensions.DependencyInjection.Abstractions 10.0.10
+- Microsoft.Extensions.Diagnostics 10.0.10
+- Microsoft.Extensions.Diagnostics.Abstractions 10.0.10
+- Microsoft.Extensions.FileProviders.Abstractions 10.0.10
+- Microsoft.Extensions.FileProviders.Physical 10.0.10
+- Microsoft.Extensions.FileSystemGlobbing 10.0.10
+- Microsoft.Extensions.Hosting.Abstractions 10.0.10
+- Microsoft.Extensions.Logging 10.0.10
+- Microsoft.Extensions.Logging.Abstractions 10.0.10
+- Microsoft.Extensions.Logging.Configuration 10.0.10
+- Microsoft.Extensions.Logging.Console 10.0.10
+- Microsoft.Extensions.Logging.Debug 10.0.10
+- Microsoft.Extensions.Logging.EventLog 10.0.10
+- Microsoft.Extensions.Logging.EventSource 10.0.10
+- Microsoft.Extensions.Options 10.0.10
+- Microsoft.Extensions.Options.ConfigurationExtensions 10.0.10
+- Microsoft.Extensions.Primitives 10.0.10
+- Microsoft.IdentityModel.Abstractions 8.16.0
+- Microsoft.IdentityModel.JsonWebTokens 8.16.0
+- Microsoft.IdentityModel.Logging 8.16.0
+- Microsoft.IdentityModel.Protocols 8.16.0
+- Microsoft.IdentityModel.Protocols.OpenIdConnect 8.16.0
+- Microsoft.IdentityModel.Tokens 8.16.0
+- Microsoft.SqlServer.Server 1.0.0
+- System.Configuration.ConfigurationManager 9.0.13
+- System.Diagnostics.EventLog 10.0.10
+- System.IdentityModel.Tokens.Jwt 8.16.0
+- System.Security.Cryptography.Pkcs 9.0.13
+- System.Security.Cryptography.ProtectedData 9.0.13
+- System.ServiceProcess.ServiceController 10.0.10
+
+===============================================================================
+3. FRAMEWORK / SELF-CONTAINED RUNTIME
+===============================================================================
+
+The win-x64 self-contained distribution incorporates components from:
+
+- .NET Runtime 10.0.10
+- ASP.NET Core 10.0.10
+
+The official Microsoft/.NET third-party notices included in the executable distribution may contain additional notices for software incorporated into those frameworks, including components licensed under MIT, Apache-2.0, BSD-style, Unicode, public-domain, and other permissive terms.
+
+===============================================================================
+4. LICENSE SUMMARY
+===============================================================================
+
+The Microsoft, .NET, OpenAPI.NET, IdentityModel, SQL Client, Hosting, Configuration, Logging, Dependency Injection, Cryptography, and related packages listed above are distributed principally under the MIT License.
+
+Swashbuckle.AspNetCore.SwaggerUI 10.2.3 is distributed under the MIT License.
+
+Swagger UI assets embedded through Swashbuckle are distributed under the Apache License, Version 2.0.
+
+Third-party components retain their own copyright and license terms. Nothing in the Workflow Monitor proprietary license limits rights granted directly by a third-party license.
+
+===============================================================================
+5. MIT LICENSE TEXT
+===============================================================================
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+===============================================================================
+6. APACHE LICENSE 2.0 REFERENCE
+===============================================================================
+
+Apache License, Version 2.0, January 2004
+https://www.apache.org/licenses/LICENSE-2.0
+
+Swagger UI and any other Apache-2.0 components included in the executable distribution remain subject to the complete Apache License, Version 2.0. The complete applicable license and attribution material is included with the distributed product where required.
+
+===============================================================================
+7. DISTRIBUTION NOTE
+===============================================================================
+
+For a specific executable build, the THIRD-PARTY-NOTICES.txt shipped inside that build is the authoritative notice for the exact runtime/framework payload of that package. This repository copy documents the current public 1.1.2 product line and should be updated whenever runtime or package dependencies change.
+
+END OF THIRD-PARTY NOTICES
