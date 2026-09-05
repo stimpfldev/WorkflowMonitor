@@ -90,6 +90,8 @@ Version 1.1.2 consolidates the validated Windows installer/uninstaller, branding
 
 The public Demo is distributed through **GitHub Releases** together with its SHA-256 checksum.
 
+**Windows SmartScreen:** the current Demo installer is not digitally signed with a trusted Authenticode certificate. Windows may therefore display **Windows protected your PC**. This expected unsigned-publisher warning does not by itself mean that Defender detected malware. Download only from this repository, verify the published SHA-256 checksum, and see the [installation instructions](docs/INSTALLATION.md) before running the installer.
+
 [Go to Releases](https://github.com/stimpfldev/WorkflowMonitor/releases)
 
 ## Documentation
