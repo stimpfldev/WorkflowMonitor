@@ -1,0 +1,38 @@
+name: Complete third-party notices
+
+on:
+  push:
+    branches:
+      - legal/full-third-party-notices
+
+permissions:
+  contents: write
+
+jobs:
+  update-notices:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore complete current notice
+        shell: powershell
+        run: |
+          $source = 'https://raw.githubusercontent.com/stimpfldev/sql-workflow-monitor/main/Legal/THIRD-PARTY-NOTICES.txt'
+          $destination = 'Legal/THIRD-PARTY-NOTICES.txt'
+          Invoke-WebRequest -Uri $source -OutFile $destination
+          $text = [System.IO.File]::ReadAllText((Resolve-Path $destination))
+          $text = $text.Replace('SQLWORKFLOWMONITOR', 'WORKFLOW MONITOR')
+          $text = $text.Replace('SqlWorkflowMonitor', 'Workflow Monitor')
+          $text = $text.Replace('Product version: 1.1.1', 'Product version: 1.1.2')
+          [System.IO.File]::WriteAllText((Resolve-Path $destination), $text, [System.Text.UTF8Encoding]::new($false))
+
+      - name: Commit final notice and remove temporary workflow
+        shell: powershell
+        run: |
+          Remove-Item '.github/workflows/full-third-party-notices-temp.yml' -Force
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Legal/THIRD-PARTY-NOTICES.txt .github/workflows/full-third-party-notices-temp.yml
+          git commit -m 'legal: restore complete third-party notices for 1.1.2'
+          git push
