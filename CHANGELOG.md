@@ -4,6 +4,14 @@
 
 # Changelog
 
+## 1.1.3 — 2026-09-05
+
+- Corrected Spanish CSV export for reliable opening in Excel while preserving accented text.
+- Confirmed installer product/display version as 1.1.3.
+- Finalized the validated Windows installer/uninstaller and packaging hardening for the 1.1.3 Demo.
+- Updated installation guidance for the current unsigned Authenticode distribution and Microsoft Defender SmartScreen behavior.
+- Refreshed public screenshots, walkthrough, Demo documentation and formal Word documentation for the 1.1.3 release.
+
 ## 1.1.2 — 2026-09-04
 
 - Permanent installation under `C:\Program Files\Workflow Monitor`.
