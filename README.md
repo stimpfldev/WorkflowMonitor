@@ -68,6 +68,13 @@ Demo scope and limitations: [docs/DEMO.md](docs/DEMO.md)
 
 Release history: [CHANGELOG.md](CHANGELOG.md)
 
+## Word documentation
+
+- [Manual de instalación y uso — ES 1.1.2](docs/SqlWorkflowMonitor_Manual_de_Instalacion_y_Uso_ES_1.1.2.docx)
+- [Installation and User Guide — EN 1.1.2](docs/SqlWorkflowMonitor_Installation_and_User_Guide_EN_1.1.2.docx)
+- [Descripción comercial — ES 1.1.2](docs/SqlWorkflowMonitor_Descripcion_Comercial_ES_1.1.2.docx)
+- [Product Overview — EN 1.1.2](docs/SqlWorkflowMonitor_Product_Overview_EN_1.1.2.docx)
+
 ## Requirements
 
 - Windows x64
