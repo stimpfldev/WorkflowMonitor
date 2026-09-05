@@ -1,3 +1,7 @@
+<p>
+  <img src="../assets/workflow-monitor-mark.svg" alt="Workflow Monitor" width="56" />
+</p>
+
 # Secure deployment baseline
 
 Workflow Monitor is intended for controlled on-premises or private-network deployment. The default production package listens only on `127.0.0.1:5080`.
