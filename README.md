@@ -100,6 +100,11 @@ The public Demo is distributed through **GitHub Releases** together with its SHA
 - [Secure deployment baseline](docs/SECURITY-DEPLOYMENT.md)
 - [Security policy](SECURITY.md)
 - [Support policy](SUPPORT.md)
+- [Legal materials](Legal/README.md)
+- [EULA — Español](Legal/EULA-ES.txt)
+- [EULA — English](Legal/EULA-EN.txt)
+- [Third-party notices](Legal/THIRD-PARTY-NOTICES.txt)
+- [Public distribution notice](LICENSE.txt)
 - [Release history](CHANGELOG.md)
 
 ### Word documentation
