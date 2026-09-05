@@ -1,0 +1,58 @@
+name: Repair public screenshots 1.1.3 temporary
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/repair-screenshots-1.1.3-temp.yml
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download validated screenshots from SharkASP
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/workflow-monitor-screenshots
+          curl -fL 'https://stimpfldev01-001-site4.ktempurl.com/dashboard.png' -o /tmp/workflow-monitor-screenshots/dashboard.png
+          curl -fL 'https://stimpfldev01-001-site4.ktempurl.com/execution-detail.png' -o /tmp/workflow-monitor-screenshots/execution-detail.png
+          curl -fL 'https://stimpfldev01-001-site4.ktempurl.com/filtered-executions.png' -o /tmp/workflow-monitor-screenshots/filtered-executions.png
+
+          printf '%s  %s\n' \
+            'a90765269a1d2411b50ea5727fdfe60fd8ca35a82e3298049b9b132a8d3c8f9a' '/tmp/workflow-monitor-screenshots/dashboard.png' \
+            '76cc7ddd017a3c2e3b2614645fd685ccf11a84f99da486ed914b48f5e6cb7f87' '/tmp/workflow-monitor-screenshots/execution-detail.png' \
+            'd286c9139907fb26cab4af6fc33d2f00bb769b06311fba0ef63abdb6ccf83ba1' '/tmp/workflow-monitor-screenshots/filtered-executions.png' \
+            | sha256sum -c -
+
+          for f in /tmp/workflow-monitor-screenshots/*.png; do
+            test "$(head -c 8 "$f" | xxd -p)" = '89504e470d0a1a0a'
+          done
+
+      - name: Replace corrupt public screenshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp /tmp/workflow-monitor-screenshots/dashboard.png assets/screenshots/dashboard.png
+          cp /tmp/workflow-monitor-screenshots/execution-detail.png assets/screenshots/execution-detail.png
+          cp /tmp/workflow-monitor-screenshots/filtered-executions.png assets/screenshots/filtered-executions.png
+
+      - name: Commit repaired screenshots and remove temporary workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Federico Stimpfl'
+          git config user.email 'contacto@federicostimpfl.com.ar'
+          git rm .github/workflows/repair-screenshots-1.1.3-temp.yml
+          git add assets/screenshots/dashboard.png assets/screenshots/execution-detail.png assets/screenshots/filtered-executions.png
+          git commit -m 'docs: repair public screenshots'
+          git push origin main
