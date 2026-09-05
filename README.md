@@ -6,11 +6,11 @@
 
 **SQL workflow execution monitoring for .NET and SQL Server.**
 
-Workflow Monitor provides a local dashboard and REST API for tracking backend processes, workers, imports, batch jobs and other SQL-backed workflows.
+Workflow Monitor provides a local dashboard and REST API for tracking backend processes, Workers, imports, batch jobs and other SQL-backed workflows.
 
 ## Why it exists
 
-Business-critical backend processes often run without a single operational view. When a batch, integration, Worker, import, or stored procedure fails—or remains active longer than expected—teams may need to reconstruct what happened from scattered logs, direct database queries, and manual checks.
+Business-critical backend processes often run without a single operational view. When a batch, integration, Worker, import, or stored procedure fails—or remains active longer than expected—teams may need to reconstruct what happened from scattered logs, direct database queries and manual checks.
 
 Workflow Monitor centralizes the execution evidence needed to answer:
 
@@ -24,20 +24,20 @@ Workflow Monitor centralizes the execution evidence needed to answer:
 
 ## Main capabilities
 
-- REST API to start, finish, list, and inspect executions
-- Execution states: `Running`, `Succeeded`, `Failed`, and `Cancelled`
+- REST API to start, finish, list and inspect executions
+- Execution states: `Running`, `Succeeded`, `Failed` and `Cancelled`
 - Authenticated MVC dashboard
 - Process-level execution history and detail
-- Start time, completion time, duration, and stale-execution detection
-- Processing metrics: total, correct, incorrect, and affected rows
+- Start time, completion time, duration and stale-execution detection
+- Processing metrics: total, correct, incorrect and affected rows
 - Error information for failed executions
-- Filtering, sorting, pagination, and CSV export
+- Filtering, sorting, pagination and CSV export
 - Worker Service for CSV processing and stored-procedure integration
-- SQL Server staging, transactions, procedures, and consistency constraints
+- SQL Server staging, transactions, procedures and consistency constraints
 - API-key authentication for Workers and integrations
 - Local administrator authentication
 - Spanish and English localization
-- Rate limiting, defensive browser headers, safe errors, and health checks
+- Rate limiting, defensive browser headers, safe errors and health checks
 - Offline signed-license validation for commercial editions
 - Demo access rules and capacity limits
 - Windows Service hosting for Web/API and Worker
@@ -75,6 +75,23 @@ Workflow Monitor centralizes the execution evidence needed to answer:
 The Windows installation runs the Web/API and Worker as Windows services. Monitoring data remains in the configured SQL Server environment.
 
 Detailed architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+
+## Editions and pricing
+
+Workflow Monitor uses capacity-based licensing for on-premises installations. Professional and Enterprise use the same monitoring core; the licensed limits determine the number of registered processes and Workers/integrations.
+
+| Edition | Price | Registered processes | Workers / integrations | Intended use |
+|---|---:|---:|---:|---|
+| **Demo** | Free | Up to 3 | 1 | 30-day technical evaluation |
+| **Professional** | **USD 15/month** or **USD 149/year** | Up to 25 | Up to 5 | Small production environments and focused backend teams |
+| **Enterprise** | **USD 39/month** or **USD 399/year** | Up to 100 | Up to 20 | Larger production environments and multiple integrations |
+| **Enterprise Custom** | Contact | More than 100 | More than 20 | Multiple installations or custom capacity requirements |
+
+Annual billing is discounted compared with 12 monthly payments. Each paid license is issued for a specific installation and billing period. Commercial packages are distributed separately from the public Demo.
+
+- [Planes comerciales — Español](docs/PLANES-COMERCIALES-ES.md)
+- [Commercial plans — English](docs/COMMERCIAL-PLANS-EN.md)
+- Commercial inquiries: **contacto@federicostimpfl.com.ar**
 
 ## Demo edition
 
@@ -115,6 +132,8 @@ The public Demo is distributed through **GitHub Releases** together with its SHA
 - [Demo scope and limitations](docs/DEMO.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Secure deployment baseline](docs/SECURITY-DEPLOYMENT.md)
+- [Planes comerciales — Español](docs/PLANES-COMERCIALES-ES.md)
+- [Commercial plans — English](docs/COMMERCIAL-PLANS-EN.md)
 - [Security policy](SECURITY.md)
 - [Support policy](SUPPORT.md)
 - [Legal materials](Legal/README.md)
@@ -142,13 +161,13 @@ The Demo package is self-contained; installing a separate .NET runtime is not re
 
 ## Commercial editions
 
-Professional and Enterprise editions use the same monitoring core with licensed limits and deployment options intended for production environments.
+Professional and Enterprise use offline signed licenses tied to the installation. The license carries its expiration date, maximum registered processes and maximum Workers/integrations, so monthly and annual billing use the same product build with different license periods.
 
 Commercial packages are distributed separately and are not published in this repository.
 
 ## Repository scope
 
-This repository is the **public product and distribution surface** for Workflow Monitor. It intentionally does not contain the private commercial source code, license-generation tooling, internal build scripts, private signing material, issued licenses, or customer-specific packages.
+This repository is the **public product and distribution surface** for Workflow Monitor. It intentionally does not contain the private commercial source code, license-generation tooling, internal build scripts, private signing material, issued licenses or customer-specific packages.
 
 ---
 
@@ -156,4 +175,4 @@ This repository is the **public product and distribution surface** for Workflow 
 
 Workflow Monitor permite registrar y consultar ejecuciones de procesos backend y SQL desde un dashboard web, con API REST, Worker, filtros, métricas de procesamiento, detección de ejecuciones demoradas y exportación CSV.
 
-La edición Demo permite una evaluación técnica durante 30 días, con hasta 3 procesos y 1 Worker/integración. Al vencer permanece en modo de solo lectura. La distribución pública se realiza desde la sección **Releases** de este repositorio.
+La Demo permite una evaluación técnica de 30 días con hasta 3 procesos y 1 Worker/integración. Professional admite hasta 25 procesos y 5 Workers por USD 15/mes o USD 149/año. Enterprise admite hasta 100 procesos y 20 Workers por USD 39/mes o USD 399/año. Al vencer una licencia deja de admitir nuevas ejecuciones conforme a las reglas de acceso del producto, preservando la información existente según corresponda.
