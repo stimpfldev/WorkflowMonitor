@@ -1,3 +1,7 @@
+<p>
+  <img src="../assets/workflow-monitor-mark.svg" alt="Workflow Monitor" width="56" />
+</p>
+
 # Workflow Monitor architecture
 
 Workflow Monitor uses a **modular layered monolith with a companion Worker Service and a shared SQL Server database**.
