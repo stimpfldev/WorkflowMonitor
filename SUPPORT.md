@@ -1,3 +1,7 @@
+<p>
+  <img src="assets/workflow-monitor-mark.svg" alt="Workflow Monitor" width="56" />
+</p>
+
 # Support
 
 ## Repository support
