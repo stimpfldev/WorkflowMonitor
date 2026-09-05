@@ -42,6 +42,20 @@ Workflow Monitor centralizes the execution evidence needed to answer:
 - Demo access rules and capacity limits
 - Windows Service hosting for Web/API and Worker
 
+## Screenshots
+
+### Execution monitor
+
+![Workflow Monitor execution monitor](assets/screenshots/dashboard.png)
+
+### Execution detail
+
+![Workflow Monitor execution detail](assets/screenshots/execution-detail.png)
+
+### Filtered executions
+
+![Workflow Monitor filtered executions](assets/screenshots/filtered-executions.png)
+
 ## Architecture
 
 ```text
