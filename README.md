@@ -80,14 +80,16 @@ Detailed architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 
 Workflow Monitor uses capacity-based licensing for on-premises installations. Professional and Enterprise use the same monitoring core; the licensed limits determine the number of registered processes and Workers/integrations.
 
-| Edition | Price | Registered processes | Workers / integrations | Intended use |
-|---|---:|---:|---:|---|
-| **Demo** | Free | Up to 3 | 1 | 30-day technical evaluation |
-| **Professional** | **USD 15/month** or **USD 149/year** | Up to 25 | Up to 5 | Small production environments and focused backend teams |
-| **Enterprise** | **USD 39/month** or **USD 399/year** | Up to 100 | Up to 20 | Larger production environments and multiple integrations |
-| **Enterprise Custom** | Contact | More than 100 | More than 20 | Multiple installations or custom capacity requirements |
+| Edition | Monthly | Quarterly | Semiannual | Annual | Registered processes | Workers / integrations | Intended use |
+|---|---:|---:|---:|---:|---:|---:|---|
+| **Demo** | Free | — | — | — | Up to 3 | 1 | 30-day technical evaluation |
+| **Professional** | **USD 15** | **USD 42** | **USD 81** | **USD 149** | Up to 25 | Up to 5 | Small production environments and focused backend teams |
+| **Enterprise** | **USD 39** | **USD 111** | **USD 210** | **USD 399** | Up to 100 | Up to 20 | Larger production environments and multiple integrations |
+| **Enterprise Custom** | Contact | Contact | Contact | Contact | More than 100 | More than 20 | Multiple installations or custom capacity requirements |
 
-Annual billing is discounted compared with 12 monthly payments. Each paid license is issued for a specific installation and billing period. Commercial packages are distributed separately from the public Demo.
+Longer billing periods are discounted compared with paying the equivalent number of independent monthly periods. Each paid license is issued for a specific installation and billing period. Commercial packages are distributed separately from the public Demo.
+
+The commercial subscription and online-payment flow through Mercado Pago has been validated end to end. A confirmed purchase is recorded as active in the commercial system and enables issuance of the corresponding signed license for the purchased plan, billing period and Installation ID.
 
 - [Planes comerciales — Español](docs/PLANES-COMERCIALES-ES.md)
 - [Commercial plans — English](docs/COMMERCIAL-PLANS-EN.md)
@@ -161,7 +163,7 @@ The Demo package is self-contained; installing a separate .NET runtime is not re
 
 ## Commercial editions
 
-Professional and Enterprise use offline signed licenses tied to the installation. The license carries its expiration date, maximum registered processes and maximum Workers/integrations, so monthly and annual billing use the same product build with different license periods.
+Professional and Enterprise use offline signed licenses tied to the installation. The license carries its expiration date, maximum registered processes and maximum Workers/integrations, so monthly, quarterly, semiannual and annual billing use the same product build with different license periods.
 
 Commercial packages are distributed separately and are not published in this repository.
 
@@ -175,4 +177,4 @@ This repository is the **public product and distribution surface** for Workflow 
 
 Workflow Monitor permite registrar y consultar ejecuciones de procesos backend y SQL desde un dashboard web, con API REST, Worker, filtros, métricas de procesamiento, detección de ejecuciones demoradas y exportación CSV.
 
-La Demo permite una evaluación técnica de 30 días con hasta 3 procesos y 1 Worker/integración. Professional admite hasta 25 procesos y 5 Workers por USD 15/mes o USD 149/año. Enterprise admite hasta 100 procesos y 20 Workers por USD 39/mes o USD 399/año. Al vencer una licencia deja de admitir nuevas ejecuciones conforme a las reglas de acceso del producto, preservando la información existente según corresponda.
+La Demo permite una evaluación técnica de 30 días con hasta 3 procesos y 1 Worker/integración. Professional admite hasta 25 procesos y 5 Workers por USD 15/mes, USD 42/trimestre, USD 81/semestre o USD 149/año. Enterprise admite hasta 100 procesos y 20 Workers por USD 39/mes, USD 111/trimestre, USD 210/semestre o USD 399/año. Al vencer una licencia deja de admitir nuevas ejecuciones conforme a las reglas de acceso del producto, preservando la información existente según corresponda.
