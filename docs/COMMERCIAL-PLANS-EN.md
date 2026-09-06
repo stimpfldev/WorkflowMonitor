@@ -2,12 +2,12 @@
 
 Workflow Monitor is licensed per installation and capacity. Professional and Enterprise use the same functional core; the licensed limits for registered processes and Workers/integrations are different.
 
-| Plan | Price | Registered processes | Workers / integrations | Recommended use |
-|---|---:|---:|---:|---|
-| Demo | Free | Up to 3 | 1 | 30-day technical evaluation |
-| Professional | USD 15/month or USD 149/year | Up to 25 | Up to 5 | Small production environments and focused backend teams |
-| Enterprise | USD 39/month or USD 399/year | Up to 100 | Up to 20 | Larger production environments and multiple integrations |
-| Enterprise Custom | Contact | More than 100 | More than 20 | Multiple installations or custom capacity requirements |
+| Plan | Monthly | Quarterly | Semiannual | Annual | Registered processes | Workers / integrations | Recommended use |
+|---|---:|---:|---:|---:|---:|---:|---|
+| Demo | Free | — | — | — | Up to 3 | 1 | 30-day technical evaluation |
+| Professional | USD 15 | USD 42 | USD 81 | USD 149 | Up to 25 | Up to 5 | Small production environments and focused backend teams |
+| Enterprise | USD 39 | USD 111 | USD 210 | USD 399 | Up to 100 | Up to 20 | Larger production environments and multiple integrations |
+| Enterprise Custom | Contact | Contact | Contact | Contact | More than 100 | More than 20 | Multiple installations or custom capacity requirements |
 
 ## Included in Professional and Enterprise
 
@@ -25,10 +25,12 @@ Workflow Monitor is licensed per installation and capacity. Professional and Ent
 
 ## Billing
 
-Customers can choose monthly or annual billing. Annual billing is discounted compared with twelve monthly payments.
+Customers can choose monthly, quarterly, semiannual or annual billing. Longer billing periods are discounted compared with paying the equivalent number of independent monthly periods.
 
-The license is issued for a specific installation and contains its expiration date and licensed capacity limits. The same product build can therefore operate with monthly or annual periods without changing the executable.
+Each paid license is issued for a specific installation and contains its expiration date and licensed capacity limits. The same product build can therefore operate with different commercial periods without changing the executable.
 
-## Purchase
+## Purchase and activation
 
-Commercial activation and online payment will be enabled through Mercado Pago after the Developer validation is completed. Until then, commercial inquiries can be sent to **contacto@federicostimpfl.com.ar**.
+The commercial subscription and online-payment flow through Mercado Pago has been validated end to end. A confirmed purchase is recorded as active in the commercial system and allows the corresponding license to be issued for the purchased plan, billing period and Installation ID.
+
+Professional and Enterprise licenses are distributed separately from the public Demo. For commercial inquiries or license issuance: **contacto@federicostimpfl.com.ar**.
