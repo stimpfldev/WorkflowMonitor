@@ -31,6 +31,16 @@ Each paid license is issued for a specific installation and contains its expirat
 
 ## Purchase and activation
 
-The commercial subscription and online-payment flow through Mercado Pago has been validated end to end. A confirmed purchase is recorded as active in the commercial system and allows the corresponding license to be issued for the purchased plan, billing period and Installation ID.
+The customer first selects Professional or Enterprise and the corresponding billing period. Payment is processed through Mercado Pago.
 
-Professional and Enterprise licenses are distributed separately from the public Demo. For commercial inquiries or license issuance: **contacto@federicostimpfl.com.ar**.
+An Installation ID is not required to start or pay for the purchase. After payment is confirmed, the license is linked to a specific Workflow Monitor installation:
+
+1. If Workflow Monitor is already installed, the customer opens that installation and goes to **/installation**.
+2. If it is not installed yet, the customer first downloads and installs the official Demo and then goes to **/installation**.
+3. The customer copies the Installation ID shown by the product and enters it on the purchase-status page.
+4. The system issues the signed license for that Installation ID and prepares the corresponding commercial package.
+5. The package is delivered through a private, time-limited download link.
+
+The public Demo remains a 30-day technical evaluation. Professional and Enterprise licenses are generated for an identified installation and distributed separately from the public evaluation package.
+
+For commercial inquiries: **contacto@federicostimpfl.com.ar**.
