@@ -89,10 +89,11 @@ Workflow Monitor uses capacity-based licensing for on-premises installations. Pr
 
 Longer billing periods are discounted compared with paying the equivalent number of independent monthly periods. Each paid license is issued for a specific installation and billing period. Commercial packages are distributed separately from the public Demo.
 
-The commercial subscription and online-payment flow through Mercado Pago has been validated end to end. A confirmed purchase is recorded as active in the commercial system and enables issuance of the corresponding signed license for the purchased plan, billing period and Installation ID.
+The purchase flow uses Mercado Pago for payment. An Installation ID is not required before payment. After confirmation, the customer links the purchase to the Workflow Monitor installation that will receive the license by copying the Installation ID shown at `/installation`. If Workflow Monitor is not installed yet, the customer can install the public Demo first, obtain that Installation ID, and then complete activation. The commercial system issues the signed license and prepares a private customer-specific package.
 
 - [Planes comerciales — Español](docs/PLANES-COMERCIALES-ES.md)
 - [Commercial plans — English](docs/COMMERCIAL-PLANS-EN.md)
+- [Customer evaluation, purchase and activation flows](docs/CUSTOMER-FLOWS.md)
 - Commercial inquiries: **contacto@federicostimpfl.com.ar**
 
 ## Demo edition
@@ -113,6 +114,8 @@ The process and Worker limits apply to registered identifiers, not to a simultan
 
 The Demo is a Windows x64 self-contained package.
 
+The application also supports a dedicated hosted Viewer mode for a read-only visual Demo. That mode is intended for a separate public Demo deployment and remains isolated from administrator and Worker/API credentials.
+
 ## Latest version
 
 **Workflow Monitor 1.1.3** — September 5, 2026
@@ -132,6 +135,7 @@ The public Demo is distributed through **GitHub Releases** together with its SHA
 - [Quick walkthrough](docs/WALKTHROUGH.md)
 - [Installation instructions](docs/INSTALLATION.md)
 - [Demo scope and limitations](docs/DEMO.md)
+- [Customer flows](docs/CUSTOMER-FLOWS.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Secure deployment baseline](docs/SECURITY-DEPLOYMENT.md)
 - [Planes comerciales — Español](docs/PLANES-COMERCIALES-ES.md)
