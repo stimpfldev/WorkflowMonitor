@@ -33,14 +33,20 @@ Security reports must follow [SECURITY.md](SECURITY.md) and must not be opened p
 - expected and actual behavior;
 - relevant sanitized logs.
 
+## Commercial activation and installation replacement
+
+Do not post paid license files, Installation IDs, purchase references, payment details or customer-specific activation packages in a public GitHub issue.
+
+For purchase recovery, paid activation, or a legitimate replacement/migration of the single licensed installation, use **contacto@federicostimpfl.com.ar**. Installation replacement is support-assisted because commercial licenses are bound to a specific Installation ID; it does not grant simultaneous use on multiple installations.
+
 ## Support boundaries
 
 Repository support does not include:
 
 - guaranteed response times;
 - production incident response;
-- customer-specific deployment or migration work;
-- license issuance;
+- customer-specific deployment or migration work beyond commercial license reissue coordination;
+- public license issuance through GitHub issues;
 - contractual support obligations;
 - custom development.
 
