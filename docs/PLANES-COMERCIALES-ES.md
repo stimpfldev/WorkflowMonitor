@@ -39,7 +39,19 @@ No es necesario conocer el Installation ID para iniciar ni pagar la compra. Desp
 2. Si todavía no está instalado, descarga e instala primero la Demo oficial y luego consulta **/installation**.
 3. El cliente copia el Installation ID mostrado por el producto y lo informa en la pantalla de contratación.
 4. El sistema emite la licencia firmada para ese Installation ID y prepara un paquete privado de activación.
-5. El paquete de activación se entrega mediante un enlace privado y temporal e incluye la licencia y un activador para aplicarla sobre la instalación existente.
+5. El paquete se entrega mediante un enlace privado y temporal e incluye la licencia y un activador para aplicarla sobre la instalación existente.
+
+La activación de una Demo existente conserva la base, el historial y la configuración; se reemplaza el estado de licencia, no la instalación completa.
+
+## Recuperación y renovaciones
+
+Si el cliente pierde la página o el enlace, puede usar **Recuperar compra** con el mismo email de contratación. El sistema no revela públicamente si ese email tiene una compra asociada y, cuando corresponde, envía un enlace de continuación.
+
+Cada pago recurrente aprobado y distinto puede generar una licencia renovada para el mismo Installation ID. El mismo pago no se procesa dos veces. Si la licencia vigente todavía tiene tiempo pago restante, el nuevo período se agrega desde su fecha de vencimiento.
+
+Pausar o cancelar la suscripción impide nuevas renovaciones, pero no invalida antes de tiempo una licencia ya emitida: esa licencia mantiene la vigencia indicada en su firma hasta su vencimiento.
+
+Una sustitución legítima del equipo o de la instalación requiere reemisión asistida porque la licencia está vinculada al Installation ID. Para ese caso: **contacto@federicostimpfl.com.ar**.
 
 La Demo pública sigue siendo una evaluación técnica de 30 días. Professional y Enterprise utilizan el mismo núcleo instalado; la edición y los límites se habilitan mediante la licencia firmada vinculada a esa instalación.
 
