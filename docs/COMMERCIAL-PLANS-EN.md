@@ -38,9 +38,21 @@ An Installation ID is not required to start or pay for the purchase. After payme
 1. If Workflow Monitor is already installed, the customer opens that installation and goes to **/installation**.
 2. If it is not installed yet, the customer first downloads and installs the official Demo and then goes to **/installation**.
 3. The customer copies the Installation ID shown by the product and enters it on the purchase-status page.
-4. The system issues the signed license for that Installation ID and prepares the corresponding commercial package.
-5. The package is delivered through a private, time-limited download link.
+4. The system issues the signed license for that Installation ID and prepares a private activation package.
+5. The package is delivered through a private, time-limited link and includes the license and an activator for the existing installation.
 
-The public Demo remains a 30-day technical evaluation. Professional and Enterprise licenses are generated for an identified installation and distributed separately from the public evaluation package.
+Activating an existing Demo preserves its database, history and configuration; the license state changes without reinstalling the product from scratch.
+
+## Recovery and renewals
+
+If the customer loses the status page or delivery link, **Recover purchase** can be used with the same checkout email address. The system does not publicly disclose whether a purchase exists for that email and, when applicable, sends a continuation link.
+
+Each distinct approved recurring payment can generate a renewed license for the same Installation ID. The same payment is not processed twice. If the current license still has paid time remaining, the next period is added from the existing expiration date.
+
+Pausing or cancelling the subscription prevents new renewals but does not invalidate an already-issued license early. That license remains valid until the expiration date contained in its signed payload.
+
+A legitimate machine or installation replacement requires a support-assisted reissue because the license is bound to the Installation ID. For that case: **contacto@federicostimpfl.com.ar**.
+
+The public Demo remains a 30-day technical evaluation. Professional and Enterprise use the same installed core; the signed license linked to that installation enables the commercial edition and capacity limits.
 
 For commercial inquiries: **contacto@federicostimpfl.com.ar**.
