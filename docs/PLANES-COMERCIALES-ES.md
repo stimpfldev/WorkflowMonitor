@@ -38,9 +38,9 @@ No es necesario conocer el Installation ID para iniciar ni pagar la compra. Desp
 1. Si Workflow Monitor ya está instalado, el cliente abre esa instalación y consulta **/installation**.
 2. Si todavía no está instalado, descarga e instala primero la Demo oficial y luego consulta **/installation**.
 3. El cliente copia el Installation ID mostrado por el producto y lo informa en la pantalla de contratación.
-4. El sistema emite la licencia firmada para ese Installation ID y prepara el paquete comercial correspondiente.
-5. El paquete se entrega mediante un enlace privado y temporal.
+4. El sistema emite la licencia firmada para ese Installation ID y prepara un paquete privado de activación.
+5. El paquete de activación se entrega mediante un enlace privado y temporal e incluye la licencia y un activador para aplicarla sobre la instalación existente.
 
-La Demo pública sigue siendo una evaluación técnica de 30 días. Las licencias Professional y Enterprise se generan para una instalación identificada y se distribuyen por separado del paquete público de evaluación.
+La Demo pública sigue siendo una evaluación técnica de 30 días. Professional y Enterprise utilizan el mismo núcleo instalado; la edición y los límites se habilitan mediante la licencia firmada vinculada a esa instalación.
 
 Para consultas comerciales: **contacto@federicostimpfl.com.ar**.
